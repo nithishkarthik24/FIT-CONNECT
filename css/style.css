@@ -725,3 +725,101 @@ section.introduction {
     display: inline-flex;
   }
 }
+/* Reset some default styles */
+/* Reset some default styles */
+body, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.bmi-calculator {
+  background: url('images/background.jpg') no-repeat center center/cover; /* Adjust path as needed */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-top: 20px;
+  color: #fff; /* Ensure text is readable on the background */
+}
+
+.fs-secondary-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.form-group input, 
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  font-size: 1rem;
+}
+
+.form-group input:focus, 
+.form-group select:focus {
+  border-color: #80bdff;
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#result h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#result p {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
